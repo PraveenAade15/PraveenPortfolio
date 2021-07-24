@@ -1,0 +1,22 @@
+.portfolio-item {
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 20%);
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+.portfolio-item img {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 100%;
+}
+.portfolio-item div:first-child {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.portfolio-item div:first-child p {
+  font-size: 40px;
+  font-weight: bold;
+  color: #01b4d9;
+  padding: 20px 0;
+}
